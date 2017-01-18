@@ -1,0 +1,100 @@
+{
+  "input" : "AAkADAAFMlFYfsRlAAABSAAAAAAAAAA0BAAACwAIAAQADAAEABUABAAWAAQAAQAEAAIABAAHAAIACwACAAQAAQAGAAEAPAABAAAANAgAAAsAGwAQABwAEAAVAAQAFgAEAAEABAACAAQABwACAAsAAgAEAAEABgABADwAAQQAAXgKCgERF0zDQgAC9wUAAynkAAAEPwAAAAnHHgG7Bh8EF0zDQgoKAREAAvcFAAMp5AAAAjcAAAAHAbvHHgYbBAoKAREXTMNCAAL3BQADKeQAAAQ/AAAACccfAbsGHwQXTMNCCgoBEQAC9wUAAynkAAACNwAAAAcBu8cfBhsECgoBERdMw0IAAvcFAAMp5AAABD8AAAAJxyABuwYfBBdMw0IKCgERAAL3BQADKeQAAAI3AAAABwG7xyAGGwQKCgERF0zDQgAC9wUAAynkAAAEPwAAAAnHIQG7Bh8EF0zDQgoKAREAAvcFAAMp5AAAAjcAAAAHAbvHIQYbBAoKAREXTMNSAAL3GAADKeUAAAQ/AAAACccjAbsGHwQXTMNSCgoBEQAC9xgAAynlAAACNwAAAAcBu8cjBhsECgoBERdMw1IAAvcZAAMp5QAAA9gAAAAIxyUBuwYfBBdMw1IKCgERAAL3GQADKeUAAAH3AAAABgG7xyUGGwQ=",
+  "expected": {
+    "version" : 9,
+    "count" : 12,
+    "uptime" : 340561,
+    "timestamp" : 1484702821,
+    "flowSequence" : 328,
+    "sourceID" : 0,
+    "sender" : {
+      "hostname" : "google-public-dns-a.google.com",
+      "port" : 64321
+    },
+    "recipient" : {
+      "hostname" : "google-public-dns-b.google.com",
+      "port" : 2055
+    },
+    "flowsets" : [ {
+      "type" : "Template",
+      "flowsetID" : 0,
+      "templateID" : 1024,
+      "fields" : [ {
+        "type" : 8,
+        "length" : 4
+      }, {
+        "type" : 12,
+        "length" : 4
+      }, {
+        "type" : 21,
+        "length" : 4
+      }, {
+        "type" : 22,
+        "length" : 4
+      }, {
+        "type" : 1,
+        "length" : 4
+      }, {
+        "type" : 2,
+        "length" : 4
+      }, {
+        "type" : 7,
+        "length" : 2
+      }, {
+        "type" : 11,
+        "length" : 2
+      }, {
+        "type" : 4,
+        "length" : 1
+      }, {
+        "type" : 6,
+        "length" : 1
+      }, {
+        "type" : 60,
+        "length" : 1
+      } ]
+    }, {
+      "type" : "Template",
+      "flowsetID" : 0,
+      "templateID" : 2048,
+      "fields" : [ {
+        "type" : 27,
+        "length" : 16
+      }, {
+        "type" : 28,
+        "length" : 16
+      }, {
+        "type" : 21,
+        "length" : 4
+      }, {
+        "type" : 22,
+        "length" : 4
+      }, {
+        "type" : 1,
+        "length" : 4
+      }, {
+        "type" : 2,
+        "length" : 4
+      }, {
+        "type" : 7,
+        "length" : 2
+      }, {
+        "type" : 11,
+        "length" : 2
+      }, {
+        "type" : 4,
+        "length" : 1
+      }, {
+        "type" : 6,
+        "length" : 1
+      }, {
+        "type" : 60,
+        "length" : 1
+      } ]
+    }, {
+      "type" : "Data",
+      "flowsetID" : 1024,
+      "data" : "CgoBERdMw0IAAvcFAAMp5AAABD8AAAAJxx4BuwYfBBdMw0IKCgERAAL3BQADKeQAAAI3AAAABwG7xx4GGwQKCgERF0zDQgAC9wUAAynkAAAEPwAAAAnHHwG7Bh8EF0zDQgoKAREAAvcFAAMp5AAAAjcAAAAHAbvHHwYbBAoKAREXTMNCAAL3BQADKeQAAAQ/AAAACccgAbsGHwQXTMNCCgoBEQAC9wUAAynkAAACNwAAAAcBu8cgBhsECgoBERdMw0IAAvcFAAMp5AAABD8AAAAJxyEBuwYfBBdMw0IKCgERAAL3BQADKeQAAAI3AAAABwG7xyEGGwQKCgERF0zDUgAC9xgAAynlAAAEPwAAAAnHIwG7Bh8EF0zDUgoKAREAAvcYAAMp5QAAAjcAAAAHAbvHIwYbBAoKAREXTMNSAAL3GQADKeUAAAPYAAAACMclAbsGHwQXTMNSCgoBEQAC9xkAAynlAAAB9wAAAAYBu8clBhsE"
+    } ]
+  }
+}
