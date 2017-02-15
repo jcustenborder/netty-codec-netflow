@@ -28,7 +28,7 @@ b.group(bossGroup)
 ### NetFlow Message Processing
 
 ```java
-class NetFlowV9RequestHandler extends SimpleChannelInboundHandler<Metric> {
+class NetFlowV9RequestHandler extends SimpleChannelInboundHandler<NetFlowV9Decoder.NetFlowMessage> {
   @Override
   protected void channelRead0(ChannelHandlerContext channelHandlerContext, NetFlowV9Decoder.NetFlowMessage netFlowMessage) throws Exception {
 
